@@ -3,8 +3,8 @@
 We recommend using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) for environment setup:
 
 ```
-conda create -n slotformer python=3.8.8
-conda activate slotformer
+conda create -n casa python=3.8.8
+conda activate casa
 ```
 
 Then install PyTorch which is compatible with your cuda setting.
@@ -38,7 +38,7 @@ Finally, clone and install this project by:
 ```
 cd ..  # move out from nerv/
 git clone git@github.com:pairlab/SlotFormer.git
-cd SlotFormer
+cd casa
 pip install -e .
 ```
 
